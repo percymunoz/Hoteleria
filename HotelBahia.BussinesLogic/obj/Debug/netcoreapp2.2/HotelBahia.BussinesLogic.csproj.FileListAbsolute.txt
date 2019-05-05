@@ -1,0 +1,9 @@
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\bin\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.deps.json
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\bin\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.dll
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\bin\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.pdb
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.csprojAssemblyReference.cache
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.csproj.CoreCompileInputs.cache
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.AssemblyInfoInputs.cache
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.AssemblyInfo.cs
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.dll
+E:\Proyectos\TallerDeSoftware\HotelBahiaRepo\HotelBahia.BussinesLogic\obj\Debug\netcoreapp2.2\HotelBahia.BussinesLogic.pdb
