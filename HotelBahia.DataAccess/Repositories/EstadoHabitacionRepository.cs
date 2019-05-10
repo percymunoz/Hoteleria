@@ -35,6 +35,30 @@ namespace HotelBahia.DataAccess.Repositories
             var desocupado = db.EstadoHabitacion.FromSql(sql, parameter1).FirstOrDefault();
             return desocupado;
         }
+        //Ocupado
+        public EstadoHabitacion BuscarEstadoOcupado()
+        {
+            RawSqlString sql = "Select * from EstadoHabitacion where EstadoNombre = @estado";
+            SqlParameter parameter1 = new SqlParameter("@estado", "Ocupado");
+            var desocupado = db.EstadoHabitacion.FromSql(sql, parameter1).FirstOrDefault();
+            return desocupado;
+        }
+        //Supervisado
+        public EstadoHabitacion BuscarEstadoSupervisado()
+        {
+            RawSqlString sql = "Select * from EstadoHabitacion where EstadoNombre = @estado";
+            SqlParameter parameter1 = new SqlParameter("@estado", "Supervisado");
+            var desocupado = db.EstadoHabitacion.FromSql(sql, parameter1).FirstOrDefault();
+            return desocupado;
+        }
+        //Habilitado
+        public EstadoHabitacion BuscarEstadoHabilitado()
+        {
+            RawSqlString sql = "Select * from EstadoHabitacion where EstadoNombre = @estado";
+            SqlParameter parameter1 = new SqlParameter("@estado", "Habilitado");
+            var desocupado = db.EstadoHabitacion.FromSql(sql, parameter1).FirstOrDefault();
+            return desocupado;
+        }
         //Limpieza concluida
 
     }

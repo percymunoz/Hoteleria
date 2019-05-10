@@ -35,6 +35,30 @@ namespace HotelBahia.BussinesLogic.Servicios
             else
                 return _estadoHabitacionRepository.BuscarEstadoDesocupado();
         }
+        //Ocupado
+        public EstadoHabitacion BuscarEstadoOcupado()
+        {
+            if (_estadoHabitacionRepository.BuscarEstadoOcupado() == null)
+                throw new Exception("No existe el estado ocupado");
+            else
+                return _estadoHabitacionRepository.BuscarEstadoOcupado();
+        }
+        //Supervisado
+        public EstadoHabitacion BuscarEstadoSupervisado()
+        {
+            if (_estadoHabitacionRepository.BuscarEstadoSupervisado() == null)
+                throw new Exception("No existe el estado supervisado");
+            else
+                return _estadoHabitacionRepository.BuscarEstadoSupervisado();
+        }
+        //Habilitado
+        public EstadoHabitacion BuscarEstadoHabilitado()
+        {
+            if (_estadoHabitacionRepository.BuscarEstadoHabilitado() == null)
+                throw new Exception("No existe el estado habilitado");
+            else
+                return _estadoHabitacionRepository.BuscarEstadoHabilitado();
+        }
         //Limpieza concluida
 
     }
