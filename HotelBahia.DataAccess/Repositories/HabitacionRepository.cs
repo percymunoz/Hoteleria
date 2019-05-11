@@ -10,7 +10,7 @@ namespace HotelBahia.DataAccess.Repositories
 {
     public class HabitacionRepository
     {
-        HoteleriaDbContext db;
+        HoteleriaDbContext db = new HoteleriaDbContext();
         //Conseguir informacion de la habitacion
         public Habitacion BuscarHabitacion(int habitacionid)
         {

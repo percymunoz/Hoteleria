@@ -10,7 +10,7 @@ namespace HotelBahia.DataAccess.Repositories
 {
     public class EstadoHabitacionRepository
     {
-        HoteleriaDbContext db;
+        HoteleriaDbContext db = new HoteleriaDbContext();
         //Estados a los que pueden cambiar dependiendo del rol:
         //Admnistrador
         public List<EstadoHabitacion> EstadosHabitacionAdministrador()

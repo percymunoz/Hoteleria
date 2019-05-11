@@ -10,7 +10,7 @@ namespace HotelBahia.DataAccess.Repositories
 {
     public class EmpleadoRepository
     {
-        HoteleriaDbContext db;
+        HoteleriaDbContext db = new HoteleriaDbContext();
         //Conseguir informacion del empleado asignado para el envio de notificacion:
         //Limpieza
         public Empleado BuscarPersonalLimpiezaAsignado(int habitacionid)
