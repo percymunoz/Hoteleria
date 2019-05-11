@@ -27,39 +27,13 @@ namespace HotelBahia.BussinesLogic.Servicios
 
 
         //Logica de la busqueda de los estados de habitacion
-        //Desocupado
-        public EstadoHabitacion BuscarEstadoDesocupado()
+        public EstadoHabitacion BuscarEstado(string estado)
         {
-            if (_estadoHabitacionRepository.BuscarEstadoDesocupado() == null)
-                throw new Exception("No existe el estado desocupado");
+            if (_estadoHabitacionRepository.BuscarEstado(estado) == null)
+                throw new Exception("No existe el estado " + estado);
             else
-                return _estadoHabitacionRepository.BuscarEstadoDesocupado();
+                return _estadoHabitacionRepository.BuscarEstado(estado);
         }
-        //Ocupado
-        public EstadoHabitacion BuscarEstadoOcupado()
-        {
-            if (_estadoHabitacionRepository.BuscarEstadoOcupado() == null)
-                throw new Exception("No existe el estado ocupado");
-            else
-                return _estadoHabitacionRepository.BuscarEstadoOcupado();
-        }
-        //Supervisado
-        public EstadoHabitacion BuscarEstadoSupervisado()
-        {
-            if (_estadoHabitacionRepository.BuscarEstadoSupervisado() == null)
-                throw new Exception("No existe el estado supervisado");
-            else
-                return _estadoHabitacionRepository.BuscarEstadoSupervisado();
-        }
-        //Habilitado
-        public EstadoHabitacion BuscarEstadoHabilitado()
-        {
-            if (_estadoHabitacionRepository.BuscarEstadoHabilitado() == null)
-                throw new Exception("No existe el estado habilitado");
-            else
-                return _estadoHabitacionRepository.BuscarEstadoHabilitado();
-        }
-        //Limpieza concluida
 
     }
 }
